@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import { Contacts } from './contacts/Contacts';
+import { Footer } from './footer/Footer';
 import { Header } from './header/Header';
 import { Jobs } from './jobs/Jobs';
 import { Main } from './main/Main';
@@ -14,6 +16,8 @@ function App() {
     <Skills/>
     <Jobs/>
     <RemoteWork/>
+    <Contacts/>
+    <Footer/>
     </div>
   );
 }

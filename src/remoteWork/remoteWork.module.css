@@ -1,5 +1,5 @@
 .remoteBlock {
-  min-height: 100vh;
+  min-height: 30vh;
   background-color: rgb(94, 133, 165);
   padding-top: 50px;
 }
@@ -10,3 +10,6 @@
   flex-direction: column;
 }
 
+.title {
+  text-align: center;
+}

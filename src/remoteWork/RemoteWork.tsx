@@ -7,7 +7,7 @@ export const RemoteWork = () => {
   return (
     <div className={s.remoteBlock}>
       <div className={`${sContainer.container} ${s.remoteBlock_container}`}>
-            <h2>Рассматриваю варианты удаленной работы</h2>
+            <h2 className={s.title}>Рассматриваю варианты удаленной работы</h2>
             <button className={sBtn.btn}>Нанять меня</button>
       </div>
     </div>

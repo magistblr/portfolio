@@ -16,5 +16,16 @@
   justify-content: space-between;
   width: 100%;
   flex-direction: row;
-  border: 1px solid
+  border: 1px solid;
+  flex-wrap: wrap;
+}
+
+.title {
+  text-align: center;
+}
+
+@media (max-width: 1133px) {
+  .skills_wrapper {
+    justify-content: center;
+  }
 }

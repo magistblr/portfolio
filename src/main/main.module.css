@@ -1,5 +1,5 @@
 .mainBlock {
-  height: 100vh;
+  min-height: 100vh;
   background-color: rgb(172, 168, 168);
 }
 
@@ -14,3 +14,8 @@
   height: 400px;
   background-color:rgb(97, 96, 96)
 }
+
+.main_container {
+  justify-content: space-around;
+}
+
