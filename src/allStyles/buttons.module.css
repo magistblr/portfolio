@@ -3,5 +3,7 @@
   height: 50px;
   background-color: gray;
   border: none;
-  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

@@ -6,7 +6,9 @@ export const Job = () => {
   return (
     <div className={s.job}>
       <div className={s.content}>
-        <button className={sBtn.btn}>Смотреть</button>
+        <div className={sBtn.btn}>
+          <a href="https://www.youtube.com/">Смотреть</a>
+        </div>
       </div>
       <div className={s.decription}>
         <h3>Название проекта</h3>

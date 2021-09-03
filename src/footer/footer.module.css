@@ -18,7 +18,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 70%;
+  width: 500px;
   flex-wrap: wrap;
   border: 1px solid;
   box-sizing:border-box;
@@ -26,11 +26,22 @@
 
 .name {
   margin-top: 0px;
+  background-color:rgb(98, 101, 104);
 }
 
 .politics {
   margin-bottom: 0px;
+  background-color:rgb(98, 101, 104);
 }
+
+
+
+@media (max-width: 625px) {
+  .social {
+    width: 100%;
+  }
+}
+
 
 @media (max-width: 361px) {
   .social {

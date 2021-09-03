@@ -7,7 +7,7 @@ export const Jobs = () => {
   return (
     <div className={s.jobs}>
       <div className={`${sContainer.container} ${s.jobs_container}`}>
-        <h2>Мои работы</h2>
+        <h2 className={s.title}>Мои работы</h2>
         <div className={s.jobs_wrapper}>
           <Job/>
           <Job/>

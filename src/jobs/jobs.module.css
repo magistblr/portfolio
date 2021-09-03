@@ -19,6 +19,10 @@
   flex-wrap: wrap;
 }
 
+.title {
+  background-color:rgb(71, 85, 76);
+}
+
 @media (max-width: 1130px) {
   .jobs_wrapper {
     justify-content: center;
