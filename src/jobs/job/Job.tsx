@@ -1,11 +1,12 @@
 import React from 'react'
 import s from './job.module.css';
+import sBtn from '../../allStyles/buttons.module.css';
 
 export const Job = () => {
   return (
     <div className={s.job}>
       <div className={s.content}>
-        <button className={s.btn}>Смотреть</button>
+        <button className={sBtn.btn}>Смотреть</button>
       </div>
       <div className={s.decription}>
         <h3>Название проекта</h3>

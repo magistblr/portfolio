@@ -1,6 +1,7 @@
 .skills {
   min-height: 100vh;
   background-color: rgb(170, 128, 128);
+  padding-top: 50px;
 }
 
 .skills_container {

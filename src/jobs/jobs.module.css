@@ -1,6 +1,7 @@
 .jobs {
   min-height: 100vh;
   background-color: rgb(71, 128, 93);
+  padding-top: 50px;
 }
 
 .jobs_container {

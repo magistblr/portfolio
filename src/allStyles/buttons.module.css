@@ -1,0 +1,7 @@
+.btn {
+  width: 150px;
+  height: 50px;
+  background-color: gray;
+  border: none;
+  cursor: pointer;
+}

@@ -1,0 +1,12 @@
+.remoteBlock {
+  min-height: 100vh;
+  background-color: rgb(94, 133, 165);
+  padding-top: 50px;
+}
+
+
+.remoteBlock_container {
+  display: flex;
+  flex-direction: column;
+}
+

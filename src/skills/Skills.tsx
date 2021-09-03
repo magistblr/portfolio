@@ -1,6 +1,6 @@
 import React from 'react'
 import { Skill } from './skill/Skill'
-import sContainer from '../container/container.module.css';
+import sContainer from '../allStyles/container.module.css';
 import s from './skills.module.css';
 
 export const Skills = () => {

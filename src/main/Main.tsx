@@ -1,6 +1,6 @@
 import React from 'react'
 import s from './main.module.css';
-import sContainer from '../container/container.module.css';
+import sContainer from '../allStyles/container.module.css';
 
 export const Main = () => {
   return (
