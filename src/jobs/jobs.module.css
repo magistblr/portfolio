@@ -1,0 +1,18 @@
+.jobs {
+  min-height: 100vh;
+  background-color: rgb(71, 128, 93);
+}
+
+.jobs_container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.jobs_wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-direction: row;
+  border: 1px solid
+}
