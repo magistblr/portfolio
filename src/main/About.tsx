@@ -1,8 +1,8 @@
 import React from 'react'
-import s from './main.module.css';
+import s from './about.module.css';
 import sContainer from '../allStyles/container.module.css';
 
-export const Main = () => {
+export const About = () => {
   return (
     <div className={s.mainBlock}>
       <div className={`${sContainer.container} ${s.main_container}`}>
