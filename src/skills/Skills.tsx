@@ -1,7 +1,7 @@
 import React from 'react'
 import { Skill } from './skill/Skill'
-import sContainer from '../allStyles/container.module.css';
-import s from './skills.module.css';
+import sContainer from '../styles/container.module.css';
+import s from './skills.module.scss';
 
 export const Skills = () => {
   return (

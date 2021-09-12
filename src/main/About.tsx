@@ -1,6 +1,6 @@
 import React from 'react'
-import s from './about.module.css';
-import sContainer from '../allStyles/container.module.css';
+import s from './about.module.scss';
+import sContainer from '../styles/container.module.css';
 
 export const About = () => {
   return (

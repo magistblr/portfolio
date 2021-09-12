@@ -1,2 +1,11 @@
-@import './variables';
+@import './vatiables.module.scss';
 
+@mixin btn () {
+  width: 150px;
+  height: 50px;
+  background-color: gray;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

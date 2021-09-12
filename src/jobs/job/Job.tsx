@@ -1,12 +1,11 @@
 import React from 'react'
-import s from './job.module.css';
-import sBtn from '../../allStyles/buttons.module.css';
+import s from './job.module.scss';
 
 export const Job = () => {
   return (
     <div className={s.job}>
       <div className={s.content}>
-        <div className={sBtn.btn}>
+        <div className={s.btn}>
           <a href="https://www.youtube.com/">Смотреть</a>
         </div>
       </div>

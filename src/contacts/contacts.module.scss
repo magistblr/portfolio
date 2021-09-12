@@ -1,3 +1,6 @@
+@import '../styles/sass/mixins.module.scss';
+
+
 .contacts {
   min-height: 100vh;
   background-color: rgb(51, 146, 114);
@@ -39,8 +42,8 @@
   margin-top: 10px;
 }
 
-.btn_contacts {
-  margin-top: 50px;
+.btn{
+  @include btn
 }
 
 .title {

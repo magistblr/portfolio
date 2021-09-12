@@ -1,7 +1,7 @@
 import React from 'react'
-import sContainer from '../allStyles/container.module.css';
+import sContainer from '../styles/container.module.css';
 import { Job } from './job/Job';
-import s from './jobs.module.css';
+import s from './jobs.module.scss';
 
 export const Jobs = () => {
   return (
