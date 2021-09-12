@@ -4,7 +4,7 @@ import sContainer from '../styles/container.module.css';
 
 export const About = () => {
   return (
-    <div className={s.mainBlock}>
+    <div className={s.mainBlock} id={"about"}>
       <div className={`${sContainer.container} ${s.main_container}`}>
           <div className={s.text}>
             <span>Привет!</span>

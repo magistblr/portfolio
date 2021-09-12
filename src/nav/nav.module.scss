@@ -1,3 +1,5 @@
+@import '../styles/sass/mixins.module.scss';
+
 .nav {
   display: flex;
   justify-content: flex-end;
@@ -19,31 +21,34 @@
   margin-right: 110px;
 }
 
-.nav_link{
+.nav_item{
   font-size: 13px;
   font-weight: 600;
   color: #eee;
   letter-spacing: .5px;
   margin: 15px 5px;
+  cursor: pointer;
+  padding-bottom: 10px;
+  transition: 0.05s;
+}
+
+.nav_item.active{
+  border-bottom: 3px solid white;
 }
 
 
-.nav_link.active{
-  color: rgb(236, 233, 11);
-}
-
-.nav_link:after{
-    content: '';
-    width: 80%;
-    height: 2px;
-    background: #fff;
-    position: absolute;
-    left: 10%;
-    bottom: -10px;
-    opacity: 0;
-    -webkit-transition: all .5s;
-    transition: all .5s;
-}
+// .nav_item:after{
+//     content: '';
+//     width: 80%;
+//     height: 2px;
+//     background: #fff;
+//     position: absolute;
+//     left: 10%;
+//     bottom: -10px;
+//     opacity: 0;
+//     -webkit-transition: all .5s;
+//     transition: all .5s;
+// }
 
 
 @media (max-width: 750px) {

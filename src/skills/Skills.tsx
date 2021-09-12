@@ -5,7 +5,7 @@ import s from './skills.module.scss';
 
 export const Skills = () => {
   return (
-    <div className={s.skills}>
+    <div className={s.skills} id={"skills"}>
       <div className={`${sContainer.container} ${s.skills_container}`}>
         <h2 className={s.title}>Мои скиллы</h2>
         <div className={s.skills_wrapper}>

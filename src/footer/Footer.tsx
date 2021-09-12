@@ -5,7 +5,7 @@ import { Logo } from './logo/Logo';
 
 export const Footer = () => {
   return (
-    <div className={s.footer}>
+    <div className={s.footer} id={"footer"}>
       <div className={`${sContainer.container} ${s.footer_container}`}>
         <h2 className={s.name}>Ефешин Максим</h2>
         <div className={s.social}>

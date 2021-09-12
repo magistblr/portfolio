@@ -6,7 +6,7 @@ import sContainer from '../styles/container.module.css';
 
 export const Contacts = () => {
   return (
-    <div className={s.contacts}>
+    <div className={s.contacts} id={"contacts"}>
       <div className={`${sContainer.container} ${s.contacts_container}`}>
         <h2 className={s.title}>Contacts</h2>
         <form className={s.form}>

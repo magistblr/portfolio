@@ -6,9 +6,16 @@ import s from './header.module.scss';
 
 export const Header = () => {
 
+  const scrollToAbout = () => {
+      window.scroll({
+      top: document.body.offsetHeight + 10,
+      left: 0,
+      behavior: 'smooth',
+    });
+  }
 
   return (
-    <div className={s.header}>
+    <div className={s.header} id={"home"}>
       <div className={s.svg_bg}>
                 <svg x="0px" y="0px" viewBox="0 186.5 1920 113.5">
                     <polygon points="-30,300 355.167,210.5 1432.5,290 1920,198.5 1920,300"></polygon>
@@ -31,8 +38,8 @@ export const Header = () => {
               </h1>
     			</div>
           <div className={s.arrow}>
-                <img src="http://www.innovationplans.com/idesign/kewll/img/down-chevron.svg" alt=""/>
-            </div>
+                <div onClick={()=> {scrollToAbout()}}><img src="http://www.innovationplans.com/idesign/kewll/img/down-chevron.svg" alt=""/></div>
+          </div>
     		</div>
     </div>
   );

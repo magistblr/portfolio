@@ -9,3 +9,17 @@
   align-items: center;
   justify-content: center;
 }
+
+@mixin nav {
+  content: '';
+  width: 80%;
+  height: 2px;
+  background: #fff;
+  position: absolute;
+  left: 10%;
+  bottom: -10px;
+  opacity: 0;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+
+}
