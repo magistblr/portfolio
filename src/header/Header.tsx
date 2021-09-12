@@ -25,14 +25,15 @@ export const Header = () => {
     			<div className={s.row}>
               <h1 className={s.text}>
                 <p className='App'>
-                  I am{' '}
+                  I Am{' '}
                   <Typewriter
-                  words={['Yefeshin Max', 'Web developer']}
-                  cursorStyle='_'
-                  typeSpeed={80}
-                  deleteSpeed={90}
-                  loop={0}
-                  delaySpeed={2000}
+                    words={['Yefeshin Max', 'Web Developer']}
+                    cursor={true}
+                    cursorStyle='|'
+                    typeSpeed={80}
+                    deleteSpeed={90}
+                    loop={0}
+                    delaySpeed={2000}
                   />
                 </p>
               </h1>

@@ -4,12 +4,22 @@ import { Link, animateScroll as scroll } from "react-scroll";
 
 export const Nav = () => {
 
-  const handleSetActive = () => {
-    scroll.scrollToTop()
-  };
+
+    const [scroll, setScroll] = React.useState(0);
+
+    const handleScroll = () => {
+      setScroll(window.scrollY);
+    };
+  
+    React.useEffect(() => {
+      window.addEventListener("scroll", handleScroll);
+      return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
+    console.log(scroll);
+    
 
   return (
-    <nav  className={s.nav}>
+    <nav  className={scroll < 1 ? s.nav : `${s.nav} ${s.nav_active}`}>
         <div>
           <ul className={s.navbar}>
             <Link
