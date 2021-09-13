@@ -26,6 +26,29 @@
   background-color:rgb(138, 135, 135);
 }
 
+.settings{
+  position: relative;
+  margin-top: 100px;
+}
+
+.settings span{
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 0;
+}
+.right{
+  border-bottom: 100px solid #0C0C0C;
+  border-left: 70vw solid transparent;
+  right: 0;
+}
+
+.left{
+  border-bottom: 100px solid #0C0C0C;
+  border-right: 30vw solid transparent;
+  left: 0;
+}
+
 @media (max-width: 1133px) {
   .skills_wrapper {
     justify-content: center;
