@@ -1,5 +1,5 @@
 .header {
-  min-height: 100vh;
+  min-height: 95vh;
   background-color: rgb(77, 134, 102);
   display: flex;
   align-items: center;
@@ -15,6 +15,7 @@
     border: none;
     .words_wrapper{
       position: relative;
+      background: none;
     }
   }
 }

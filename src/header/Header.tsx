@@ -24,7 +24,7 @@ export const Header = () => {
       <div className={`${sContainer.container} ${s.container}`}>
     			<div className={s.row}>
               <h1 className={s.text}>
-                <p className='App'>
+                <p className={s.words}>
                   I Am{' '}
                   <Typewriter
                     words={['Yefeshin Max', 'Web Developer']}
