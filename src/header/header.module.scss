@@ -1,5 +1,5 @@
 .header {
-  min-height: 95vh;
+  min-height: 100vh;
   background-color: rgb(77, 134, 102);
   display: flex;
   align-items: center;
@@ -43,6 +43,7 @@
 
 .svg_bg svg{
   fill: #0C0C0C;
+  z-index: 9;
 }
 
 
