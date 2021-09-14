@@ -19,6 +19,9 @@
   flex-direction: row;
   border: 1px solid;
   flex-wrap: wrap;
+  @media (max-width: 1133px) {
+    justify-content: center;
+  }
 }
 
 .title {
@@ -37,20 +40,15 @@
   height: 0;
   top: 0;
 }
-.right{
+.left{
   border-bottom: 100px solid #0C0C0C;
-  border-left: 70vw solid transparent;
+  border-right: 70vw solid transparent;
   right: 0;
 }
 
-.left{
+.right{
   border-bottom: 100px solid #0C0C0C;
-  border-right: 30vw solid transparent;
+  border-left: 30vw solid transparent;
   left: 0;
 }
 
-@media (max-width: 1133px) {
-  .skills_wrapper {
-    justify-content: center;
-  }
-}
