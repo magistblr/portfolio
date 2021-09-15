@@ -2,19 +2,24 @@ import React from 'react'
 import s from './footer.module.scss';
 import sContainer from '../styles/container.module.css';
 import { Logo } from './logo/Logo';
+import { LogoType } from '../App';
 
-export const Footer = () => {
+type PropsType = {
+  logo: LogoType[]
+}
+
+
+export const Footer = (props: PropsType) => {
   return (
     <div className={s.footer} id={"footer"}>
       <div className={`${sContainer.container} ${s.footer_container}`}>
-        <h2 className={s.name}>Ефешин Максим</h2>
+        <a href={"#"} className={s.name}>Yefeshin Max</a>
         <div className={s.social}>
-          <Logo/>
-          <Logo/>
-          <Logo/>
-          <Logo/>
+          {props.logo.map(item => {
+            return <Logo url={item.url} id={item.id} background={item.background}/>
+            })}
         </div>
-        <h3 className={s.politics}>© 2021 Все права защищены</h3>
+        <p className={s.politics}>© 2021. ALL RIGHTS RESERVED.</p>
       </div>
     </div>
   )

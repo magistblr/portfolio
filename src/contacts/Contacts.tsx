@@ -11,13 +11,12 @@ export const Contacts = (props: TitlePropsType) => {
     <div className={s.contacts} id={"contacts"}>
       <Title title={props.title} subtitle={props.subtitle}/>
       <div className={`${sContainer.container} ${s.contacts_container}`}>
-        <h2 className={s.title}>Contacts</h2>
         <form className={s.form}>
-          <input className={s.input} type="text" />
-          <input className={s.input} type="text" />
-          <textarea className={s.area}></textarea>
+          <input placeholder={"Enter name"} className={s.input} type="text" />
+          <input placeholder={"Enter email"} className={s.input} type="text" />
+          <textarea placeholder={"Enter message"} className={s.area}></textarea>
         </form>
-        <button className={s.btn}>Message</button>
+        <button className={s.btn}>Send message</button>
       </div>
     </div>
   )

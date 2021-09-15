@@ -11,7 +11,6 @@
   min-height: 350px;
   margin-top: 50px;
   position: relative;
-  transition: bobble 0.5s;
   overflow:hidden;
   .img{
     width: 100%;
@@ -19,6 +18,7 @@
     vertical-align: middle;
     border-style: none;
     box-sizing: border-box;
+    position: relative;
   }
   .content {
     position: absolute;
@@ -26,20 +26,17 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: $mainColor;
+    background: #0C0C0C;
     color: $secondaryTextColor;
     opacity: 0;
     transition: all .5s;
-    z-index: 2;
     display: flex;
     align-items: center;
     justify-content: center;
-    &:hover{
-      background-color: rgb(0, 0, 0);
-      transition: .5s;
+    &:hover {
       opacity: 1;
     }
-    &:hover h6, &:hover p{
+    &:hover .wrapper .title, &:hover .wrapper .description{
       transform: translateY(0);
     }
     .wrapper {
@@ -48,7 +45,6 @@
       color: $mainColor;
       .title{
         font-weight: 600;
-        position: relative;
         margin-bottom: 5px;
         transform: translateY(-10px);
         transition: all .5s;
@@ -64,6 +60,7 @@
         width: 100%;
         transform: translateY(10px);
         transition: all .5s;
+        margin-top: 20px;
       }
     }
     .btn{
@@ -83,16 +80,5 @@
 }
 
 
-@keyframes bobble {
-  0% {
-      transform: translate3d(50px, 40px, 0px);
-      animation-timing-function: ease-in;
-  }
-  50% {
-      transform: translate3d(50px, 50px, 0px);
-      animation-timing-function: ease-out;
-  }
-  100% {
-      transform: translate3d(50px, 40px, 0px);
-  }
-}
+
+

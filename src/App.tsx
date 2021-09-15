@@ -9,6 +9,10 @@ import { About } from './main/About';
 import { Nav } from './nav/Nav';
 import { Skills } from './skills/Skills';
 import todoImg from './assets/img/todo.png';
+import vkImg from './assets/svg/vk.svg';
+import ghImg from './assets/svg/gh.svg';
+import lnImg from './assets/svg/ln.svg';
+import tmImg from './assets/svg/tm.svg';
 
 
 
@@ -26,6 +30,13 @@ export type JobsPropsType = {
   filter: string
 }
 
+export type LogoType = {
+    id: string
+    url: string
+    background: string
+}
+
+
 
 const TITLE_DATA: TitlePropsType[] = [
   {title: "SKILLS", subtitle: "ANY TASK"},
@@ -38,27 +49,27 @@ const JOBS_CARDS: JobsPropsType[] = [
     filter: "react",
     background: todoImg,
     title: "Todolist",
-    description: "Lorem",
+    description: "It looks like an ordinary Todolist, but this is only at first glance, if you open the code, you can see all the most modern approaches to developing web applications using the ReactJS and Redux libraries.",
     url: "https://magistblr.github.io/todo_ts/",
   },
   {  id: v1(),
     filter: "react",
     background: "",
     title: "Counter",
-    description: "Lorem",
+    description: "Сounter written in ReactJS and Redux libraries.",
     url: "https://magistblr.github.io/counter/",
   },
   {  id: v1(),
     filter: "react",
     background: "",
     title: "Social network",
-    description: "Lorem",
+    description: "The slightly outdated syntax of this application does not in any way affect the concept and architectural decisions that are used in modern development. Written in ReactJS and Redux libraries.",
     url: "https://magistblr.github.io/social_ts/",
   },
   {  id: v1(),
     filter: "react",
     background: "",
-    title: "Todolist",
+    title: "Pulse",
     description: "Lorem",
     url: "https://magistblr.github.io/todo_ts/",
   },
@@ -66,20 +77,41 @@ const JOBS_CARDS: JobsPropsType[] = [
     filter: "js",
     background: "",
     title: "Wheather app",
-    description: "Lorem",
+    description: "Written in native JS. The API is used as the Weather API. You can find out the current weather at the moment.",
     url: "https://magistblr.github.io/test_2/",
   },
   {  id: v1(),
     filter: "html/css",
     background: "",
     title: "Uber",
-    description: "Lorem",
+    description: "Landing page for Uber company. Layout only, without JS.",
     url: "https://magistblr.github.io/uber/",
   }
 ]
 
 
-
+const LOGO_DATA: LogoType[] = [
+  {
+    id: v1(),
+    url: "https://vk.com/id18059665",
+    background: vkImg,
+  },
+  {
+    id: v1(),
+    url: "https://github.com/magistblr",
+    background: ghImg,
+  },
+  {
+    id: v1(),
+    url: "https://www.linkedin.com/in/yefeshin-maxim-095525210/",
+    background: lnImg,
+  },
+  {
+    id: v1(),
+    url: "https://t.me/magistblr",
+    background: tmImg,
+  },
+]
 
 
 
@@ -104,6 +136,9 @@ export const App: React.FC<TitlePropsType & JobsPropsType> = () => {
     setFilter(value)
   }
 
+
+
+
   return (
     <div className="App">
       <Nav/>
@@ -112,7 +147,7 @@ export const App: React.FC<TitlePropsType & JobsPropsType> = () => {
       <Skills title={TITLE_DATA[0].title} subtitle={TITLE_DATA[0].subtitle}/>
       <Jobs title={TITLE_DATA[1].title} subtitle={TITLE_DATA[1].subtitle} cards={filteredCards} callBack={changeFilter} filter={filter}/>
       <Contacts title={TITLE_DATA[2].title} subtitle={TITLE_DATA[2].subtitle}/>
-      <Footer/>
+      <Footer logo={LOGO_DATA}/>
     </div>
   );
 }
