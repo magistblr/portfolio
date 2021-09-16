@@ -12,8 +12,7 @@ export const About = () => {
           <div className={s.text}>
             <h4>I'm Yefeshin Max</h4>
             <span>FRONT-END DEVELOPER</span>
-            <p>Lorem Ipsum <b>From USA</b> is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the standard dummy text ever since.</p>
-            <p>Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <p>Hey! I'll tell you a little about what I do. I mainly write in ReactJS, below you can see examples of my work. There are also small projects made in native JS. If you are interested in my code, you can see it in my github profile, the link to it is at the very bottom.</p>
           </div>
       </div>
       <div className={s.settings}>

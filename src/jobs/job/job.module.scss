@@ -7,7 +7,7 @@
   justify-content: space-around;
   align-items: center;
   border: 5px solid;
-  width: 300px;
+  width: 320px;
   min-height: 350px;
   margin-top: 50px;
   position: relative;
@@ -26,7 +26,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: #0C0C0C;
+    background: $mainColor;
     color: $secondaryTextColor;
     opacity: 0;
     transition: all .5s;
@@ -34,6 +34,7 @@
     align-items: center;
     justify-content: center;
     &:hover {
+      background: #0C0C0C;
       opacity: 1;
     }
     &:hover .wrapper .title, &:hover .wrapper .description{

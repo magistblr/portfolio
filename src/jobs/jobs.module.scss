@@ -12,27 +12,21 @@
   flex-direction: column;
   transition: 0.5s;
   position: relative;
-
 }
 
 .jobs_wrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   position: relative;
   width: 90%;
   flex-direction: row;
-  border: 1px solid;
   flex-wrap: wrap;
   margin-top: 30px;
   transition: 0.5s;
-
   @media (max-width: 1130px) {
     justify-content: center;
   }
 }
-
-
-
 
 .wrapper_btn{
   display: flex;
@@ -59,6 +53,7 @@
   height: 0;
   top: 0;
 }
+
 .right{
   border-bottom: 100px solid #111;
   border-left: 70vw solid transparent;

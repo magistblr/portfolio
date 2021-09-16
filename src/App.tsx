@@ -9,6 +9,9 @@ import { About } from './main/About';
 import { Nav } from './nav/Nav';
 import { Skills } from './skills/Skills';
 import todoImg from './assets/img/todo.png';
+import counterImg from './assets/img/counter.png';
+import uberImg from './assets/img/uber.png';
+import weatherImg from './assets/img/weather.png';
 import vkImg from './assets/svg/vk.svg';
 import ghImg from './assets/svg/gh.svg';
 import lnImg from './assets/svg/ln.svg';
@@ -54,7 +57,7 @@ const JOBS_CARDS: JobsPropsType[] = [
   },
   {  id: v1(),
     filter: "react",
-    background: "",
+    background: counterImg,
     title: "Counter",
     description: "Сounter written in ReactJS and Redux libraries.",
     url: "https://magistblr.github.io/counter/",
@@ -67,22 +70,22 @@ const JOBS_CARDS: JobsPropsType[] = [
     url: "https://magistblr.github.io/social_ts/",
   },
   {  id: v1(),
-    filter: "react",
+    filter: "js",
     background: "",
     title: "Pulse",
-    description: "Lorem",
+    description: "Dynamic site with the possibility of feedback. The logic is written in JS and the JQuery library",
     url: "https://magistblr.github.io/todo_ts/",
   },
   {  id: v1(),
     filter: "js",
-    background: "",
+    background: weatherImg,
     title: "Wheather app",
     description: "Written in native JS. The API is used as the Weather API. You can find out the current weather at the moment.",
     url: "https://magistblr.github.io/test_2/",
   },
   {  id: v1(),
     filter: "html/css",
-    background: "",
+    background: uberImg,
     title: "Uber",
     description: "Landing page for Uber company. Layout only, without JS.",
     url: "https://magistblr.github.io/uber/",
