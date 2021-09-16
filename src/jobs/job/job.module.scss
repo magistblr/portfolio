@@ -12,6 +12,12 @@
   margin-top: 50px;
   position: relative;
   overflow:hidden;
+  margin: 5px;
+  @media (max-width: 850px){
+      width: 250px;
+      min-height: 270px;
+}
+
   .img{
     width: 100%;
     height: auto;

@@ -10,16 +10,30 @@ export const Nav = () => {
     const handleScroll = () => {
       setScroll(window.scrollY);
     };
-  
+
     React.useEffect(() => {
       window.addEventListener("scroll", handleScroll);
       return () => window.removeEventListener("scroll", handleScroll);
     }, []);
     console.log(scroll);
-    
+
+
+  const [burger, setBurger] = React.useState(false);
+
+  const onChangeBurger = () => {
+    setBurger(!burger)
+  }
+
+
 
   return (
+<div>
     <nav  className={scroll < 1 ? s.nav : `${s.nav} ${s.nav_active}`}>
+      <div onClick={()=> {onChangeBurger()}} className={s.burger}>
+        <div className={burger ? `${s.line_1} ${s.line_1_active}` : s.line_1}></div>
+        <div className={burger ? `${s.line_2} ${s.line_2_active}` : s.line_2}></div>
+        <div className={burger ? `${s.line_3} ${s.line_3_active}` : s.line_3}></div>
+      </div>
         <div>
           <ul className={s.navbar}>
             <Link
@@ -97,5 +111,6 @@ export const Nav = () => {
           </ul>
         </div>
     </nav>
+    </div>
   )
 }

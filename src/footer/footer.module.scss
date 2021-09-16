@@ -22,6 +22,9 @@
   width: 300px;
   flex-wrap: wrap;
   box-sizing:border-box;
+  @media (max-width: 338px) {
+      width: 100%;
+  }
 }
 
 .name {
@@ -41,17 +44,3 @@
   letter-spacing: 2px;
 }
 
-
-
-@media (max-width: 625px) {
-  .social {
-    width: 100%;
-  }
-}
-
-
-@media (max-width: 361px) {
-  .social {
-    justify-content: space-between;
-  }
-}
