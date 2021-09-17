@@ -39,6 +39,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     &:hover {
       background: #0C0C0C;
       opacity: 1;
@@ -49,7 +50,9 @@
     .wrapper {
       text-align: center;
       max-width: 100%;
+      min-height: 210px;
       color: $mainColor;
+      padding: 5px;
       .title{
         font-weight: 600;
         margin-bottom: 5px;
@@ -71,11 +74,8 @@
       }
     }
     .btn{
-      position: absolute;
       cursor: pointer;
       font-size: 20px;
-      position: absolute;
-      bottom: 15px;
       background:$mainColor;
       padding: 10px;
       font-weight: 500;

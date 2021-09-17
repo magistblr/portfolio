@@ -33,18 +33,46 @@
 }
 
 
-.svg_bg{
-  position: absolute;
-  bottom: -10px;
-  left: 0;
-  width: 100%;
-  z-index: 3;
+// .svg_bg{
+//   position: absolute;
+//   bottom: -10px;
+//   left: 0;
+//   width: 100%;
+//   z-index: 3;
+// }
+
+// .svg_bg svg{
+//   fill: #0C0C0C;
+//   z-index: 9;
+// }
+
+
+.settings{
+  position: relative;
+  margin-top: 100px;
 }
 
-.svg_bg svg{
-  fill: #0C0C0C;
-  z-index: 9;
+.settings span{
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 0;
 }
+.left{
+  border-bottom: 100px solid #0C0C0C;
+  border-right: 70vw solid transparent;
+  right: 0;
+}
+
+.right{
+  border-bottom: 100px solid #0C0C0C;
+  border-left: 30vw solid transparent;
+  left: 0;
+}
+
+
+
+
 
 
 .text, .name{

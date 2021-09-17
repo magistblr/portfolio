@@ -38,9 +38,11 @@ export const Header = () => {
                 </p>
               </h1>
     			</div>
+
           <div className={s.arrow}>
                 <div onClick={()=> {scrollToAbout()}}><img src="http://www.innovationplans.com/idesign/kewll/img/down-chevron.svg" alt=""/></div>
           </div>
+
     		</div>
     </div>
   );

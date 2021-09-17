@@ -12,8 +12,6 @@ type PropsType = {
 
 export const Job = (props: PropsType) => {
 
-  
-
 
   return (
       <div className={s.job}>
