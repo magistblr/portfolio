@@ -34,8 +34,8 @@ export const Nav = () => {
         <div className={burger ? `${s.line_2} ${s.line_2_active}` : s.line_2}></div>
         <div className={burger ? `${s.line_3} ${s.line_3_active}` : s.line_3}></div>
       </div>
-        <div>
-          <ul className={s.navbar}>
+        <div className={burger ? `${s.burgerSlide} ${s.burgerSlide_active}` : s.burgerSlide}>
+          <ul className={burger ? `${s.navbar} ${s.navbar_burger_active}` : s.navbar}>
             <Link
                 className={s.nav_item}
                 activeClass={s.active}

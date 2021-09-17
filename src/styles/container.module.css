@@ -5,14 +5,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid
+  /* border: 1px solid */
 }
-
-/* @media (max-width: 1000px){
-    .container {
-      width: 80%;
-  }
-} */
 
 @media (max-width: 1230px){
     .container {
@@ -25,7 +19,6 @@
     flex-wrap: wrap;
 }
 }
-
 
 @media (max-width: 600px){
     .container {
