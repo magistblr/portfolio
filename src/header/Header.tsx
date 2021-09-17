@@ -38,9 +38,9 @@ export const Header = () => {
           </div>
     		</div>
       <div className={s.svg_bg}>
-                <svg x="0px" y="0px" viewBox="0 186.5 1920 113.5">
-                    <polygon points="-30,300 355.167,210.5 1432.5,290 1920,198.5 1920,300"></polygon>
-                </svg>
+            <svg x="0px" y="0px" viewBox="0 186.5 1920 113.5">
+                <polygon points="0,300 310.167,188.5 1443.5,295 1921,193.5 2028,316"></polygon>
+            </svg>
       </div>
     </div>
   );
