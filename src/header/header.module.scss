@@ -1,5 +1,5 @@
 .header {
-  min-height: 100vh;
+  height: 100vh;
   background-color: rgb(77, 134, 102);
   display: flex;
   align-items: center;
@@ -9,7 +9,7 @@
   background-size: cover;
   .container{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: column;
     color: #fff;
     border: none;
