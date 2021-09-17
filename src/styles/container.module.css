@@ -8,11 +8,18 @@
   /* border: 1px solid */
 }
 
-@media (max-width: 1230px){
+@media (max-width: 1500px){
     .container {
-      width: 90%;
+      width: 80%;
   }
 }
+
+@media (max-width: 1230px){
+  .container {
+    width: 90%;
+}
+}
+
 
 @media (max-width: 768px){
   .container {

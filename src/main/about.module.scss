@@ -91,6 +91,10 @@
   margin-right: auto;
   margin-left: auto;
   border: none;
+  display: flex;
+  @media (max-width: 850px){
+    flex-wrap: wrap;
+  }
 }
 
 .settings{
