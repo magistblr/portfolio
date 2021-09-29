@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b5df9067.chunk.css",
-    "main.js": "/portfolio/static/js/main.984f1dc1.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.984f1dc1.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.f13f0392.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.f13f0392.js.map",
-    "static/js/2.be594cb9.chunk.js": "/portfolio/static/js/2.be594cb9.chunk.js",
-    "static/js/2.be594cb9.chunk.js.map": "/portfolio/static/js/2.be594cb9.chunk.js.map",
-    "static/js/3.38e4c81e.chunk.js": "/portfolio/static/js/3.38e4c81e.chunk.js",
-    "static/js/3.38e4c81e.chunk.js.map": "/portfolio/static/js/3.38e4c81e.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.da4e9d57.chunk.css",
+    "main.js": "/portfolio/static/js/main.18d30c52.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.18d30c52.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.01c389e5.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.01c389e5.js.map",
+    "static/js/2.f318627f.chunk.js": "/portfolio/static/js/2.f318627f.chunk.js",
+    "static/js/2.f318627f.chunk.js.map": "/portfolio/static/js/2.f318627f.chunk.js.map",
+    "static/js/3.f732ea61.chunk.js": "/portfolio/static/js/3.f732ea61.chunk.js",
+    "static/js/3.f732ea61.chunk.js.map": "/portfolio/static/js/3.f732ea61.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.b5df9067.chunk.css.map": "/portfolio/static/css/main.b5df9067.chunk.css.map",
-    "static/js/2.be594cb9.chunk.js.LICENSE.txt": "/portfolio/static/js/2.be594cb9.chunk.js.LICENSE.txt",
+    "static/css/main.da4e9d57.chunk.css.map": "/portfolio/static/css/main.da4e9d57.chunk.css.map",
+    "static/js/2.f318627f.chunk.js.LICENSE.txt": "/portfolio/static/js/2.f318627f.chunk.js.LICENSE.txt",
     "static/media/header.module.scss": "/portfolio/static/media/bg.8ddc2519.jpg",
     "static/media/css.c32f0750.svg": "/portfolio/static/media/css.c32f0750.svg",
     "static/media/gh.3a5ccf39.svg": "/portfolio/static/media/gh.3a5ccf39.svg",
@@ -28,9 +28,9 @@
     "static/media/weather.49c0ee0b.png": "/portfolio/static/media/weather.49c0ee0b.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.f13f0392.js",
-    "static/js/2.be594cb9.chunk.js",
-    "static/css/main.b5df9067.chunk.css",
-    "static/js/main.984f1dc1.chunk.js"
+    "static/js/runtime-main.01c389e5.js",
+    "static/js/2.f318627f.chunk.js",
+    "static/css/main.da4e9d57.chunk.css",
+    "static/js/main.18d30c52.chunk.js"
   ]
 }
