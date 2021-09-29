@@ -10,7 +10,7 @@ export const About = () => {
             <div className={s.photo}></div>
           </div>
           <div className={s.text}>
-            <h4>I'm Yefeshin Max</h4>
+            <h4>I'm Yefeshin Maksim</h4>
             <span>FRONT-END DEVELOPER</span>
             <p>Hey! I'll tell you a little about what I do. I mainly write in ReactJS, below you can see examples of my work. There are also small projects made in native JS. If you are interested in my code, you can see it in my github profile, the link to it is at the very bottom.</p>
           </div>

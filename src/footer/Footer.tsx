@@ -13,7 +13,7 @@ export const Footer = (props: PropsType) => {
   return (
     <div className={s.footer} id={"footer"}>
       <div className={`${sContainer.container} ${s.footer_container}`}>
-        <a href={"#"} className={s.name}>Yefeshin Max</a>
+        <a href={"#"} className={s.name}>Yefeshin Maksim</a>
         <div className={s.social}>
           {props.logo.map(item => {
             return <Logo url={item.url} id={item.id} background={item.background}/>

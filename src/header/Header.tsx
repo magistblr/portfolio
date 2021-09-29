@@ -22,7 +22,7 @@ export const Header = () => {
                 <p className={s.words}>
                   I Am{' '}
                   <Typewriter
-                    words={['Yefeshin Max', 'Web Developer']}
+                    words={['Yefeshin Maksim', 'Web Developer']}
                     cursor={true}
                     cursorStyle='|'
                     typeSpeed={80}
