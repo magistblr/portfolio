@@ -66,16 +66,16 @@ const JOBS_CARDS: JobsPropsType[] = [
     filter: "react",
     background: "",
     title: "Social network",
-    description: "The slightly outdated syntax of this application does not in any way affect the concept and architectural decisions that are used in modern development. Written in ReactJS and Redux libraries.",
+    description: "The project uses architectural solutions for easy scaling of the application. Written in ReactJS and Redux libraries, Rest API is used for data exchange.",
     url: "https://magistblr.github.io/social_ts/",
   },
-  {  id: v1(),
-    filter: "js",
-    background: "",
-    title: "Pulse",
-    description: "Dynamic site with the possibility of feedback. The logic is written in JS and the JQuery library",
-    url: "https://magistblr.github.io/todo_ts/",
-  },
+  // {  id: v1(),
+  //   filter: "js",
+  //   background: "",
+  //   title: "Pulse",
+  //   description: "Dynamic site with the possibility of feedback. The logic is written in JS and the JQuery library",
+  //   url: "https://magistblr.github.io/todo_ts/",
+  // },
   {  id: v1(),
     filter: "js",
     background: weatherImg,
@@ -138,8 +138,6 @@ export const App: React.FC<TitlePropsType & JobsPropsType> = () => {
   const changeFilter = (value: string) => {
     setFilter(value)
   }
-
-
 
 
   return (

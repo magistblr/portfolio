@@ -12,10 +12,11 @@
   min-height: 80px;
   transition: 0.3s;
   @media (max-width: 1200px) {
-    justify-content: center
+    justify-content: center;
+    min-height: 55px;
   }
   @media (max-width: 750px) {
-      font-size: 18px;
+    font-size: 18px;
   }
   @media (max-width: 400px) {
     justify-content: space-around;
@@ -58,7 +59,7 @@
     height: 30vh;
     width: 100%;
     transition: 0.5s;
-    top: -40px;
+    top: -25px;
 }
 
 
