@@ -8,6 +8,7 @@ import { Jobs } from './jobs/Jobs';
 import { About } from './main/About';
 import { Nav } from './nav/Nav';
 import { Skills } from './skills/Skills';
+import socImg from './assets/img/soc.png';
 import todoImg from './assets/img/todo.png';
 import counterImg from './assets/img/counter.png';
 import uberImg from './assets/img/uber.png';
@@ -64,7 +65,7 @@ const JOBS_CARDS: JobsPropsType[] = [
   },
   {  id: v1(),
     filter: "react",
-    background: "",
+    background: socImg,
     title: "Social network",
     description: "The project uses architectural solutions for easy scaling of the application. Written in ReactJS and Redux libraries, Rest API is used for data exchange.",
     url: "https://magistblr.github.io/social_ts/",
@@ -106,7 +107,7 @@ const LOGO_DATA: LogoType[] = [
   },
   {
     id: v1(),
-    url: "https://www.linkedin.com/in/yefeshin-maxim-095525210/",
+    url: "https://www.linkedin.com/in/yefeshinmaksim",
     background: lnImg,
   },
   {
