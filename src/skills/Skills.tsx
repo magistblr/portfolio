@@ -3,7 +3,6 @@ import { Skill } from './skill/Skill';
 import sContainer from '../styles/container.module.css';
 import s from './skills.module.scss';
 import { Title } from '../title/Title';
-import { faCss3, faHtml5, faJs, faReact } from '@fortawesome/free-brands-svg-icons';
 import { v1 } from 'uuid';
 import { TitlePropsType } from '../App';
 import Redux from '../assets/svg/redux.svg'

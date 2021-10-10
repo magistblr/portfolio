@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { JobsPropsType, TitlePropsType } from '../App';
 import sContainer from '../styles/container.module.css';
 import { Title } from '../title/Title';

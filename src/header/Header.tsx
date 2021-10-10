@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Typewriter } from 'react-simple-typewriter'
 import sContainer from '../styles/container.module.css';
 import s from './header.module.scss';

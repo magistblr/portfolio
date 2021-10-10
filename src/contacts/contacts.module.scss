@@ -119,6 +119,7 @@
   box-sizing: border-box;
   margin-top: 10px;
   margin-bottom: 1rem;
+  color: rgb(255, 255, 255)
 }
 
 .btn{
@@ -138,15 +139,60 @@
   border-color: #1c1c1c;
   color: $mainColor;
   border-radius: 5px;
-  animation: bounce 2s;
-  transition: .5s;
+  transition: .3s;
   &:hover{
     background-color: $mainColor;
     color: #1c1c1c;
   }
 }
 
+.btn:disabled{
+  background-color: #1c1c1c;
+  opacity: 0.3
+}
+
+.btn:disabled:hover{
+  background-color: #1c1c1c;
+  color: $mainColor;
+}
 
 
 
+
+.spinner {
+  animation: rotate 2s linear infinite;
+  z-index: 2;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -25px 0 0 -25px;
+  width: 50px;
+  height: 50px;
+  & .path {
+    stroke: rgb(255, 255, 255);
+    stroke-linecap: round;
+    animation: dash 1.5s ease-in-out infinite;
+  }
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes dash {
+  0% {
+    stroke-dasharray: 1, 150;
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dasharray: 90, 150;
+    stroke-dashoffset: -35;
+  }
+  100% {
+    stroke-dasharray: 90, 150;
+    stroke-dashoffset: -124;
+  }
+}
 
