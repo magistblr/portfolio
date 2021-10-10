@@ -29,7 +29,7 @@ export const Jobs = (props: TitlePropsType & PropsType) => {
           <span onClick={() => {onAllClickHandler()}} className={props.filter === 'all' ? activeFilter : s.btn_jobs_filter}>ALL</span>
           <span onClick={() => {onHTMLClickHandler()}} className={props.filter === 'html/css' ? activeFilter : s.btn_jobs_filter}>HTML/CSS</span>
           <span onClick={() => {onJSClickHandler()}} className={props.filter === 'js' ? activeFilter : s.btn_jobs_filter}>JS</span>
-          <span onClick={() => {onReactlClickHandler()}} className={props.filter === 'react' ? activeFilter : s.btn_jobs_filter}>REACTJS</span>
+          <span onClick={() => {onReactlClickHandler()}} className={props.filter === 'react' ? activeFilter : s.btn_jobs_filter}>REACT</span>
           </div>
         </div>
         <div className={s.jobs_wrapper}>
